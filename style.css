@@ -1,0 +1,49 @@
+body{
+    background-image: url(bckgrnd.jpg);
+    overflow-x:hidden;
+}
+.menu {
+    position:absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    width: 700px;    
+    overflow: hidden;
+    top:15px;
+    left:540px;
+    
+}
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #5757a0;
+  
+  margin-right: -5px;
+
+}
+.menu li {
+ display: inline;
+ float: left;
+} 
+
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(177, 40, 22); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+
+body{
+  background-image: url(bckgrnd.jpg);
+  overflow-x:hidden;
+}

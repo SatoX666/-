@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="корзина.js" defer></script>
+<link rel="stylesheet" type="text/css" href="стиль.css">
+<p><b>Корзина</b></p>
+
+<ul class="menu">
+<li><a href="index.html">Главная страница</a></li><li><a href="товары.html">Товары</a></li><li><a href="аксессуары.html">Аксессуары</a></li><li><a href="корзина.html">Корзина</a></li>
+</ul>
+    <p><textarea id="inp1" rows="25" cols="112" name="text"></textarea></p>
+    <p><input type="submit" value="Берём!" onClick="oformit()"></p>
+     <p><input type="submit" value="Не берём(" onClick="клир()"></p>	
+     <p><input type="submit" value="Скачать чек" onClick="download('name.txt',document.getElementById('inp1').value)"></p>
+</body>
+<div class="sells"></div>
+</html>
